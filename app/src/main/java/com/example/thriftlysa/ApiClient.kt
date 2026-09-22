@@ -5,15 +5,9 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiClient {
 
-    /*
-     * IMPORTANT:
-     *
-     * Replace this URL with your hosted API URL.
-     *
-     * It must end with /
-     */
+
     private const val BASE_URL =
-        "https://YOUR-DOMAIN.com/"
+        "http://192.168.8.123/thriftly/"
 
     val api: ApiService by lazy {
 
